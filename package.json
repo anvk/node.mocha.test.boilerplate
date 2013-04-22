@@ -1,0 +1,13 @@
+{
+    "name": "my-test",
+    "version": "0.1.0",
+    "description": "test",
+    "dependencies": {
+        "mocha": "latest",
+        "chai": "latest"
+    },
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "preferGlobal": true
+}
