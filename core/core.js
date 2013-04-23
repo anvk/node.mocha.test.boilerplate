@@ -2,7 +2,9 @@ if (typeof module !== 'undefined' && module.exports) {
   var _ = require("./underscore-min.js");
   require("./json2.min.js");
 } else {
-  // load requirements another way
+  // do a freeswitch load
+  include("./underscore-min.js");
+  include("./json2.min.js");
 }
 
 // the ultimate debug function

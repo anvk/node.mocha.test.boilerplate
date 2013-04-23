@@ -1,7 +1,8 @@
 if (typeof module !== 'undefined' && module.exports) {
   core = require("../core/core.js");
 } else {
-  // load plugin another way
+  // do a freeswitch load
+  include("../core/core.js");
 }
 
 // my project namespace
