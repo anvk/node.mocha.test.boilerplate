@@ -1,4 +1,4 @@
-My Node.JS & Mocha/Chai boilerplate
+My tiny boilerplate for Node/Mocha/Chai tests & modules
 
 1. run "npm install" to install dependencies
 
